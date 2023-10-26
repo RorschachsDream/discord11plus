@@ -27,60 +27,6 @@
 /* Default Message Bubble */
 @import url(https://zuzumi-f.github.io/Discord-11/release/messagebubble11.css);
 
-/*--------------------------------------------------------------
-                           Glass effect
-         [To see your desk put "none" in --wallpaper-is:
-                               and
-               enable Transparency in BD Settings]
----------------------------------------------------------------*/
-/*--Yes you can enable/disable this--*/
-/* @import url(https://zuzumi-f.github.io/Discord-11/release/glasseffect.css); */
-
-/*--------------------------------------------------------------
-                           Settings
----------------------------------------------------------------*/
-:root {
-    --wallpaper-is: none; /* Wallpaper - Replace de url only */
-    --blur-size: 24px; /* Amount of blur in pixels [24px is default] */
-    --opacity-thing: 0.6; /* Value from 0 to 1 [0.6 is default] */
-    --server-size: 48px; /* The size of the server icons [48px is default] */
-      
-    /* HSL(Hue, Saturation, Lightness). This values will change the accent color (That blue color in most buttons) */
-    --H: 199; /* Value only number [199 is default] */
-    --S: 100%; /* Value in % [100% is default] */
-    --L: 69%; /* Value in % [69% is default] */
-
-/* HSL on Top */
-#app-mount .guilds-2JjMmN [class*=expandedFolderBackground] {
-    border-radius: var(--winrad2) !important;
-    left: calc(var(--server-size)/2) !important;
-}
-#app-mount .guilds-2JjMmN .wrapper-z5ab_q {
-    height: auto !important;
-    width: 0px !important;
-    top: calc(-50% + 1px) !important;
-    margin-left: 0px !important;
-}
-#app-mount .guilds-2JjMmN [class*=pill] span {
-    border-radius: 1.5px !important;
-}
-#app-mount .listItem-3SmSlK {
-    width: fit-content !important;
-    margin: 0 12px 6px !important;
-}
-.tutorialContainer-2jwoiB + .listItem-3SmSlK {
-    position: fixed !important;
-}
-#app-mount .base-2jDfDU {
-    border-left: none;
-    border-top-left-radius: 0px;
-}
-}
-
-/*----------------------------------------------------
-                anything else down here
-------------------------------------------------------*/
-
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
 /* Bottom HorizontalServerList. Simply remove the comments surrounding the @import to enable it. */
